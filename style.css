@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  background: black;
+}
+h1 {
+  font-size: 80px;
+  line-height: 85px;
+}
+h2 {
+  font-size: 55px;
+}
+.bg-transparent {
+  height: 100vh;
+}
+.bg-transparent div:nth-child(1) {
+  background: black;
+}
+.bg-transparent div:nth-child(2) {
+  background: rgb(24, 24, 35);
+}
+.main > div {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.main span {
+  color: rgba(255, 255, 255, 0.5);
+}
+.main .head-text-left {
+  margin-left: -50px;
+}
+.light-grey-color {
+  color: #8491a0;
+}
+.section-padding-top {
+  padding-top: 15%;
+}
+.work .inner .work-numbers {
+  font-size: 7rem;
+  display: inline;
+  margin: 0;
+  line-height: 7rem;
+  font-weight: 500;
+}
+.work .inner .work-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.article .text-content {
+  background-color: rgb(255, 243, 229);
+}
+.article p {
+  color: #5b6876;
+  font-size: 18px;
+  text-align: justify;
+  padding-top: 15px;
+}
+.skills .inner .sub-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.card-body {
+  background-color: #181823;
+}
+.card-title {
+  font-size: 24px;
+}
+.card-text {
+  font-size: 18px;
+}
+input,
+textarea {
+  background: #181823 !important;
+  border: none !important;
+  border-radius: unset !important;
+  color: #ffffff !important;
+}
+.contact form .custom-btn {
+  background-color: #5221e6;
+  color: white;
+  border: none !important;
+  border-radius: unset !important;
+}
+.navbar {
+  padding: 0%;
+  border-top: 6px solid #5221e6;
+}
+.nav-item:nth-child(3) {
+  background: #5221e6;
+}
+footer {
+  background: #181823;
+}
+footer ul li {
+  list-style: none;
+  color: white;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .main .head-text-left {
+    margin-left: auto;
+  }
+}
+.toggle-button {
+  color: #ffffff;
+}
